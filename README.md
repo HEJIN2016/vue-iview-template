@@ -1,6 +1,6 @@
-# op-web
+# vue-iview-template
 
-> op web
+> vue-iview-template
 
 ## Build Setup
 
@@ -8,7 +8,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:3050
 npm run dev
 
 # build for production with minification
