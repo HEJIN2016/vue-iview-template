@@ -7,8 +7,12 @@ import router from './router'
 import cookie from 'js-cookie'
 import moment from 'moment'
 import axios from './js/axios'
+import $ from 'jquery'
 
 import './style/main.less'
+
+window.$ = $;
+window.jQuery = $;
 
 Vue.prototype.$Cookie = cookie;
 Vue.prototype.$Moment = moment;
