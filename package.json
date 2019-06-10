@@ -1,7 +1,7 @@
 {
-  "name": "op-web",
+  "name": "vue-iview-template",
   "version": "1.0.0",
-  "description": "op web",
+  "description": "vue-iview-template",
   "author": "hejin <1179767901@qq.com>",
   "private": true,
   "scripts": {
