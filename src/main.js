@@ -8,6 +8,7 @@ import cookie from 'js-cookie'
 import moment from 'moment'
 import axios from './js/axios'
 import $ from 'jquery'
+import { Button } from 'iview'
 
 import './style/main.less'
 
@@ -17,6 +18,8 @@ window.jQuery = $;
 Vue.prototype.$Cookie = cookie;
 Vue.prototype.$Moment = moment;
 Vue.prototype.$Axios = axios;
+
+Vue.component("Button", Button);
 
 Vue.config.productionTip = false
 
