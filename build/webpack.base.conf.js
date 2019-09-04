@@ -40,7 +40,10 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
+        include: [resolve('src'), resolve('test'),
+          resolve('node_modules/webpack-dev-server/client'),
+          resolve('node_modules/iview/src'), // npm路径
+          resolve('node_modules/_iview@3.4.2@iview/src')] // cnpm路径，请根据iview具体版本进行配置
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
